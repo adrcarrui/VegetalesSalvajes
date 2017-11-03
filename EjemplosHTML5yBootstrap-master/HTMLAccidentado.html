@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>DECLARACIÓN AMISTOSA DE ACCIDENTE</h1>
+        <table border="1">
+            <tr><th>Fecha del accidente</th><th>Hora</th><th>Localización</th><th>Lugar</th><th>Víctima(s) incluso leve(s)</th></tr>
+            <tr><td><textarea name="fecha" rows="3"></textarea></td>
+                <td><textarea name="hora" rows="3"></textarea></td>
+<td><textarea name="pais" rows="3"></textarea></td><td><textarea name="lugar" rows="3"></textarea></td>
+<td><form>
+                        <input type="checkbox" name="option1" value="Yes"> No<br>
+                        <input type="checkbox" name="vehicle2" value="No"> Sí </td></tr>
+
+        </table>
+        <table border="1">
+            <tr><th>Daños materiales</th></tr>
+            <tr><td>Vehículos distintos de A y B: <form>
+                        <input type="checkbox" name="vehicle1" value="Car1"> No<br>
+                        <input type="checkbox" name="vehicle2" value="Car2"> Sí 
+                    </form></td><td>objetos distintos al vehículo: <form>
+                        <input type="checkbox" name="vehicle1" value="Car1"> No<br>
+                        <input type="checkbox" name="vehicle2" value="Car2"> Sí </td></tr>
+
+                        </table>
+                        <details>
+                            <summary>Vehículo A</summary>
+                            <section> <h3>Asegurado</h3>
+                                <form action="." oninput="range_control_value.value = range_control.valueAsNumber">
+                                    <p>
+                                        <input type="hidden" name="redirect" value="https://www.w3.org/TR/html5/" />
+
+                                        Nombre: <input type="text" name="name_control" autofocus required />
+                                        <br />
+                                        Apellidos: <input type="text" name="surname_control" required />
+                                        <br />
+                                        Dirección: <input type="text" name="address" placeholder="Introduzca su dirección" />
+                                        <br />
+                                        Código Postal: <input type="number" name="number_control" />
+                                        <br />
+                                        País: <input type="text" name="country_control" />
+                                        <br />
+                                        Teléfono o e-mail: <input type="text" name="text_control" />
+                                        <br />
+                                        Fecha de nacimiento: <input type="datetime" name="datetime_control" />
+                                        <br />
+                                    </p>
+                                </form> 
+                            </section>
+                            <section> <h3>Vehículo</h3>
+                                <form action="." oninput="range_control_value.value = range_control.valueAsNumber">
+                                    <p>
+                                        Marca, modelo: <input type="text" name="name_control" autofocus required />
+                                        <br />
+                                        Matrícula (o bastidor): <input type="number" name="number_control" required />
+                                        <br />
+                                        País de matrícula: <input type="text" name="country" />
+                                        <br />
+                                        Remolque bastidor: <input type="number" name="number_control" />
+                                        <br />
+                                        Pais de matrícula (Remolque): <input type="text" name="country_control" />
+                                        <br />
+                                    </p>
+                                </form> 
+                            </section>
+                            <section> <h3>Aseguradora</h3>
+                                <form action="." oninput="range_control_value.value = range_control.valueAsNumber">
+                                    <p>
+                                        Nombre: <input type="text" name="name_control" autofocus required />
+                                        <br />
+                                        Nº de póliza: <input type="number" name="number_control" required />
+                                        <br />
+                                        Nº de Carta Verde: <input type="text" name="text" />
+                                        <br />
+                                        Certificado o Carta Verde válida desde: <input type="number" name="number_control" />
+                                        <br />
+                                        Agencia (oficina o corredor): <input type="text" name="country_control" />
+                                        <br />
+                                        Nombre: <input type="text" name="country_control" />
+                                        <br />
+                                        Dirección: <input type="text" name="country_control" />
+                                        <br />
+                                        País: <input type="text" name="country_control" />
+                                        <br />
+                                        Teléfono o e-mail: <input type="text" name="text_control" />
+                                        <br />
+                                    </p>
+                                </form> 
+                            </section>
+                            <section> <h3>Conductor</h3>
+                                <form action="." oninput="range_control_value.value = range_control.valueAsNumber">
+                                    <p>
+                                        Nombre: <input type="text" name="name_control" autofocus required />
+                                        <br />
+                                        Apellidos: <input type="text" name="surname_control" autofocus required />
+                                        <br />
+                                        Fecha y hora de nacimiento: <input type="datetime" name="datetime_control" />
+                                        <br />
+                                        Dirección: <input type="text" name="country_control" />
+                                        <br />
+                                        País: <input type="text" name="country_control" />
+                                        <br />
+                                        Teléfono o e-mail: <input type="text" name="text_control" />
+                                        <br />
+                                        Permiso de conducir nº: <input type="number" name="number_control">
+                                        <br />
+                                        Categoría (A,B,...): <input type="text" name="text_control">
+                                        <br />
+                                        Permiso válido hasta: <input type="datetime" name="datetime_control" />
+                                        <br />
+                                    </p>
+                                </form> 
+                            </section>
+                        </details>
+                        <details>
+                            <summary>Vehículo B</summary>
+                        </details>
+                        </body>
+                        </html>
